@@ -22,6 +22,30 @@
   color: #61dafb;
 }
 
+/* .playlist-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
+
+.song-container {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.playlist-container {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cardimage-container {
+  padding-top: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -29,4 +53,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+div button {
+  margin: 15px;
 }
